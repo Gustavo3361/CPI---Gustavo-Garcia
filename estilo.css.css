@@ -1,6 +1,6 @@
 body{
     height: 1000px;
-    background: linear-gradient(180deg, #ffffff 17.67%, rgba(138, 224, 243, 0.26) 100%);
+    background: linear-gradient(180deg, #ffffff 17.67%, rgba(138, 224, 243, 0.26) 10%);
 }
 header{
     width: 100%;
@@ -51,22 +51,31 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-
+   
+    margin-left: 500px;
 }
-#sobre{
+#ttsobre{
     border-top: 0.8px solid  rgb(236, 182, 227);
     padding-top: 20px;
 }
 .p-sobre{
     border-bottom: 0.8px solid rgb(236, 182, 227);
     padding-bottom: 20px;
+    margin-right: 100px;
 }
+.p-prod{
+   font: 1.8rem 'roboto';
 
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+h2{
+  margin-left: 500px;
+}
 .card {
 	background-color: #FFF;
-	margin:10px;
-
+	margin:5px;
+ 
 }
 
 .img-entrega{
@@ -81,7 +90,7 @@ align-items:center;
    float: left;
    width: 200px;
    background: linear-gradient(180deg, #e8f8fc 17.67%, rgba(138, 224, 243, 0.26) 100%);
-  
+   margin-left: 100px;
 }
 #container{
     background: linear-gradient(180deg, #e8f8fc 17.67%, rgba(138, 224, 243, 0.26) 100%);
@@ -120,21 +129,23 @@ align-items:center;
      
     float: right;
      ;
-     margin-top: 500px;;
+     margin-top: 500px;
+     margin-right: 400px;
  }
   #container1{
     flex-direction:row-reverse;
     display: flex;
-	margin-bottom: 20px;
-    margin-right: 100px;
+	  margin-bottom: 20px;
+    margin-right: 0px;
     height: 500px;
     width: 400px;
+    margin-left: 500px;
 }
 #card{
 
     background-size: 100;
-	margin:10px;
-	width:100%;
+	  margin:10px;
+	  width:100%;
     border-radius: 9px;/*borda arredondada */
     box-shadow: 0px 4px 8px #696969;/*coloca sombra na borda*/
 }
@@ -150,9 +161,9 @@ align-items:center;
 }
 #card-cont{
     
-    padding: 10px;
+    padding: 5px;
     font: 1rem 'antic slab', sans-serif;
-	line-height: 20px;
+	  line-height: 20px;
     text-align: justify;
     transition: 0.6s;/*transição da sombra*/
 }
