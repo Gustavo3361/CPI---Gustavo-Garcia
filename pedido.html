@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "autor" content="Gustavo Garcia">
+    <meta name="keywords" content="móveis, decoração, cadeira, mesa, sofá, aparador, estante, quadro, design, tapete, tecido, sala de estar, artigosde decoração, loja de móveis">
+    <meta name="description" content="E-commerce de móveis e decoração, móveis de alta qualidade e grandes marcas. Oferecemos o conforto aos nossos clientes de terem acesso as melhores marcas de móveis sem sair de casa, com toda confiança e segurança.">
+    <title>DECORAR.COM</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css.css" >
+</head>
+<body>
+    
+  <header>
+    <img src="banner.png" alt="">
+  </header>
+    <nav>
+        <div id="navv">
+         <a class="a-menu" href="index.html">HOME</a>       
+         <a class="a-menu" href="#produtos">PRODUTOS</a>
+         <a class="a-menu" href="pedido.html">PEDIDO</a>
+         <a class="a-menu" href="#">BLOG</a>
+        </div>
+    </nav>
+    <section id="pag-visitas">  
+        <h1> FAÇA SEU PEDIDO!</h1> 
+          <p>  Oferecemos sempre um atendimento pesonalizado aos nossos clientes.</p>
+             
+          <form>
+        
+            <label for="name">Nome:</label>
+            <input id="name" type="text" name="nome_completo"placeholder="Digite seu nome completo" required><br>
+     
+            <label for="email">E-mail:</label><br>
+            <input id="email" name="email" type="email" placeholder="nomeusuario@email.com">         
+            
+         <label for="produtos">PRODUTOS:</label>
+             <select id="escolha_produto" name="escolha_produto">
+               <option value="">Selecione</option>
+               <option value="file_tilapia">SOFA</option>
+               <option value="lula">POLTRONA</option>
+               <option value="polvo">MESA</option>
+               <option value="file_salmao">LUMINARIA</option>
+             </select>
+         
+            <div>
+            <label for="quantidade">QUANTIDADE:</label>
+            <input id="quantidade_prod" type="number" min="1" max="10" step="1"
+             name="quantidadeprod"><br>
+            </div>     
+          
+              <fieldset><legend>FORMA RETIRADA :</legend>
+            
+              <input id="delivery" type="radio" name="cliente" value="cliente"><label for="cliente">Delivery</label><br>
+              <input id="retirada" type="radio" name="cliente" value="nao_cliente"><label for="nao_cliente">Retirada no Local </label>
+           </fieldset>
+               <div>
+                   <h1>Calcule suas Parcelas</h1>
+                   <p>Preço R$:
+                       <input type="text" id="inPreco" class="numero" autofocus>
+                       <input type="button" value="Exibir formas de pagto" id="btExibir">
+                   </p>
+                   <pre id="outParcelas"></pre>
+                
+               </div>
+               <label for="coment">Comentários :</label>
+               <textarea id="msg" cols="48" rows="5" ></textarea>
+            
+               <div id="botoes-form"><input type="submit" name="bnt_agendar" value="Agendar">
+               <input type="reset" name="bnt_limpar" value="Limpar">
+               </div>
+            
+          </form>  
+        </section> 
+        <script src="cod.js" ></script>
+</body>
+</html>

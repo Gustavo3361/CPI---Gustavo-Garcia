@@ -1,0 +1,225 @@
+body{
+    height: 1000px;
+    background: linear-gradient(180deg, #ffffff 17.67%, rgba(138, 224, 243, 0.26) 100%);
+}
+header{
+    width: 100%;
+    height: 200px;
+    border-radius: 1px;
+    border: solid 0.5px #a1e4f560;
+}
+header img{
+    width: 100%;
+    height: 200px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #c5ecf8;
+    position: sticky;/* o 'STICKY' deixa o elemento fixo a partir de um ponto definido abaixo*/
+    top: 5px;
+    z-index: 1;
+    border: outset 1px;
+    text-align:center;
+
+}
+.a-menu{
+    text-decoration: none;}
+    .a-menu{
+
+        margin-right: 40px;  /*essa foi uma classe criada p/ links do menu*/
+     }
+     
+     .a-menu:link, .a-menu:visited{ /*aqui é o menu quando é aberto*/
+         color:#fff;                   
+         }
+     .a-menu:hover, .a-menu:active{/*aqui quando o mouse passa sobre o link*/
+         color: yellow;    
+}
+
+main{
+
+}
+
+#sobre{
+    font: 1.4rem 'roboto';
+    position: absolute ;
+    width: 500px;
+    height: 300px;
+    left: 412px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+#ttsobre{
+    border-top: 0.8px solid  rgb(236, 182, 227);
+    padding-top: 20px;
+}
+.p-sobre{
+    border-bottom: 0.8px solid rgb(236, 182, 227);
+    padding-bottom: 20px;
+}
+
+.card {
+	background-color: #FFF;
+	margin:10px;
+
+}
+
+.img-entrega{
+width: 60px;
+height: 60px;
+padding: 10px;
+margin-left: 55px;
+align-items:center;
+}
+
+#info{
+   float: left;
+   width: 200px;
+   background: linear-gradient(180deg, #e8f8fc 17.67%, rgba(138, 224, 243, 0.26) 100%);
+  
+}
+#container{
+    background: linear-gradient(180deg, #e8f8fc 17.67%, rgba(138, 224, 243, 0.26) 100%);
+  
+ }
+ footer{
+    width: 100%;
+    height:70px;
+    text-align: center;
+    clear: both;
+    text-decoration: none;
+    background-color: #c5ecf8; 
+ }
+ .foot{
+    text-decoration: none;
+    color:#fff;
+    
+}
+#botao{
+    
+    width:69px;
+    height:69px;
+    background-color: #99f183;
+    border-radius: 34px;/*usado para fazer circulo,arredondar*/
+    position: fixed;/*o 'FIXED' torna o elemento fixo na pagina*/
+    bottom: 30px;
+    right: 30px;
+  }
+#bt{
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font: 2rem 'roboto';
+}
+ #produtos{
+     
+    float: right;
+     ;
+     margin-top: 500px;;
+ }
+  #container1{
+    flex-direction:row-reverse;
+    display: flex;
+	margin-bottom: 20px;
+    margin-right: 100px;
+    height: 500px;
+    width: 400px;
+}
+#card{
+
+    background-size: 100;
+	margin:10px;
+	width:100%;
+    border-radius: 9px;/*borda arredondada */
+    box-shadow: 0px 4px 8px #696969;/*coloca sombra na borda*/
+}
+#card:hover{
+	box-shadow: 0 10px 18px #000; 
+}
+
+.img-card{
+   width: 150px;
+   height: 150px;
+   padding: 10px;
+  
+}
+#card-cont{
+    
+    padding: 10px;
+    font: 1rem 'antic slab', sans-serif;
+	line-height: 20px;
+    text-align: justify;
+    transition: 0.6s;/*transição da sombra*/
+}
+#encomendas{
+    background-color: #E6E8FA;
+    padding: 10px;
+   }
+   #encomendas p{
+       text-align: center;
+       margin-bottom: 20px;
+   }
+   
+   form{
+       width: 400px;
+       margin: 0 auto;
+   }
+   input, select, textarea{
+       width: 100%;
+       height: 30px;
+       margin-bottom: 10px;
+       padding-left: 5px;
+       box-sizing: border-box;/*para não estrapolar a região do form*/
+      
+       font: 1rem 'Gruppo', sans-serif;
+       color: #ccc;
+   }
+   
+   label,fieldset, input, select, textarea{/* LABEL configura os titulos do formulario*/
+       font: 1rem 'Gruppo', sans-serif;
+   }
+    fieldset{
+       border: 1px solid #ccc;
+       margin-bottom: 10px;
+       padding: 10px;
+   }
+   input[type="radio"]{/* fzd isso[type=""] pode alterar o input pelo tipo dele*/
+   width: 14px;
+   height: 14px
+   margin-left: 50px;
+   padding: 10px;
+   
+   }
+   textarea{
+       height: 80px;
+   }
+   #botoes-form{
+       display: flex; /*coloca a a div lado a lado*/
+   }
+   input[type="submit"], input[type="reset"]{
+   margin: 20px;
+   background-color: #8bc3a4;
+   color: #fff;
+   border: 0;
+   border-radius: 5px;
+   transition: 0.6s;/*transição da sombra*/
+   box-shadow: 0px 4px 8px #696969
+   }
+   
+   
+   input[type="reset"]{
+       background-color: #f47e7e;
+   }
+   h1{border-bottom-style: inset;}
+   pre{font-size: 1.2rem;}
+   .aDireita{text-align: right;}
+   span{margin-left: 70px;}
+   select{width: 150px;}
+   .detalhes{width: 380px;}
+   .oculta{display: none;}
+   .exibe{display: inline;}
