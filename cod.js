@@ -1,3 +1,8 @@
+
+
+
+
+
 var btExibir = document.getElementById("btExibir")
 
 btExibir.addEventListener("click",function(){
